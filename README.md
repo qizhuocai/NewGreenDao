@@ -1,4 +1,6 @@
 # NewGreenDao
+项目需要进行了部分生成代码块的改造
+
 基于 https://github.com/greenrobot/greenDAO 项目重新增加了 DaoGenerator 引用里面的模板。
 
 原有的基础上增加了一个单例的，数据库操作类，并且实现了不删除数据升级表。
@@ -39,3 +41,9 @@ dao-util.ftl 数据增删改查
 关闭AS删除原来的包 粘贴进去生成好的包修改成你项目的greenDAO版本号
 
 修改schemaVersion 版本号重新生成你的项目，模板就会根据你的规则生成对应代码。
+
+
+
+
+![image](https://user-images.githubusercontent.com/20677983/114266786-c6d3b800-9a2a-11eb-8567-7235de3b2910.png)
+
