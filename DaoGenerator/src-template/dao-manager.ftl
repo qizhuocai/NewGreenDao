@@ -22,7 +22,7 @@ import ${entity.javaPackageDao}.${entity.classNameDao};
  */
 public class DbManager {
 
-      public static final String DEFAULT_DB_NAME = "MY_DB";
+      public static  String DEFAULT_DB_NAME = "MY_DB";
       private static DaoMaster daoMaster;
       private static DaoSession daoSession;
       private static DbManager mDbManager;
@@ -35,6 +35,7 @@ public class DbManager {
 
     public static synchronized void init(Context context, String dbName) {
         try {
+             DEFAULT_DB_NAME=dbName;
             getInstance(context);
         } catch (Exception e) {
             e.printStackTrace();

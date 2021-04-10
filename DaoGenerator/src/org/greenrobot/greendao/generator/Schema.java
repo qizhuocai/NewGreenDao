@@ -25,7 +25,7 @@ import java.util.Map;
 
 /**
  * The "root" model class to which you can add entities to.
- * 
+ *
  * @see <a href="http://greendao-orm.com/documentation/modelling-entities/">Modelling Entities (Documentation page)</a>
  */
 @SuppressWarnings("unused")

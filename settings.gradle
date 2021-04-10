@@ -2,7 +2,7 @@ include 'greendao-api'
 include 'DaoCore'
 include 'DaoGenerator'
 //include 'tests'
-
+//
 include 'examples:DaoExample'
 include 'examples:RxDaoExample'
 
