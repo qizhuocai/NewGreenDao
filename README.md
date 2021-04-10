@@ -25,7 +25,7 @@ dao-util.ftl 数据增删改查
 4.构建项目，没有问题的话build 会有生成好的 greendao-generator-3.3.2.jar 包（可以自行修改生成包的版本号）
 
 
-5.复制生成好的包到项目里面classpath下来的路径 
+5.复制生成好的包到项目里面classpath下来 greendao的路径 
 
 
 
