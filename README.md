@@ -1,7 +1,10 @@
 # NewGreenDao
 项目需要进行了部分生成代码块的改造
 
-基于 https://github.com/greenrobot/greenDAO 项目重新增加了 DaoGenerator 引用里面的模板。
+基于[greenDAO] (https://github.com/greenrobot/greenDAO) 项目重新增加了 DaoGenerator 引用里面的模板。
+
+
+离线版  [greendao-gradle-plugin](https://github.com/qizhuocai/FCEmulator_Qizhuo/tree/main/greendaoPlugin) 
 
 原有的基础上增加了一个单例的，数据库操作类，并且实现了不删除数据升级表。
 
@@ -46,4 +49,5 @@ dao-util.ftl 数据增删改查
 
 
 ![image](https://user-images.githubusercontent.com/20677983/114266786-c6d3b800-9a2a-11eb-8567-7235de3b2910.png)
+
 
